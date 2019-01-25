@@ -1,0 +1,22 @@
+<div class="tags">
+    <a href="#">$title$</a>
+</div>
+
+<div class="album py-5">
+    <div class="container">
+        <div class="card-columns">
+            $for(posts)$
+            <div class="card mb-4 shadow-sm">
+                <img class="card-img" src="$thumbnail$" alt="$title$"/>
+                <a class="card-img-overlay card-hover text-white" href="$url$">
+                    <div class="bg-pink">
+                        <p class="mb-0">$title$</p>
+                        <small>$date$</small>
+                    </div>
+                </a>
+            </div>
+            $endfor$
+        </div>
+
+    </div>
+</div>
