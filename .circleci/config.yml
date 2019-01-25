@@ -1,0 +1,36 @@
+version: 2
+jobs:
+  build:
+#    working_directory: ~/impure-site
+    docker:
+      - image: fpco/stack-build:lts
+    branches:
+      only:
+        - hakyll
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v2-stack-work-{{ checksum "impure-site.cabal" }}
+            - stack-work-
+      - run:
+          name: Build executable
+          command: stack build
+      - save_cache:
+          paths:
+            - ~/futtetennismo/.stack-work
+            - /root/.stack/
+          key: v2-stack-work-{{ checksum "impure-site.cabal" }}
+      - deploy:
+          name: Deploy master to Github Pages
+          command: |
+            git config --global user.email robots@circleci.com
+            git config --global user.name CircleCI
+            stack exec site rebuild
+            git checkout master
+            git reset --hard origin/master
+            git pull --rebase
+            cp -a _site/. .
+            git add --all
+            git commit -m "[`date '+%F %T %Z'`] New release"
+            git push origin master:master
