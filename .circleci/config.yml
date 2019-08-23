@@ -3,7 +3,7 @@ jobs:
   build:
 #    working_directory: ~/impure-site
     docker:
-      - image: fpco/stack-build:lts
+      - image: fpco/stack-build:lts-13
     branches:
       only:
         - hakyll
