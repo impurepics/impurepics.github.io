@@ -3,13 +3,13 @@ const resultsContainer = document.getElementById("quiz-results");
 const submitButton = document.getElementById("quiz-submit");
 
 const pictures =
-  { "Semigroup": "https://imgur.com/2aL4la7.png"
-  , "Monoid": "https://imgur.com/HDKHYmz.png"
-  , "Functor": "https://imgur.com/Qfre8mA.png"
-  , "Foldable": "https://imgur.com/XmkWWAC.png"
-  , "Traversable": "https://imgur.com/g4WMehg.png"
-  , "Applicative": "https://imgur.com/CsHPmJi.png"
-  , "Monad": "https://imgur.com/kmIQF7x.png"
+  { "Semigroup": "https://imgur.com/2aL4la7"
+  , "Monoid": "https://imgur.com/HDKHYmz"
+  , "Functor": "https://imgur.com/Qfre8mA"
+  , "Foldable": "https://imgur.com/XmkWWAC"
+  , "Traversable": "https://imgur.com/g4WMehg"
+  , "Applicative": "https://imgur.com/CsHPmJi"
+  , "Monad": "https://imgur.com/kmIQF7x"
   };
 
 // What are you looking at?
@@ -150,18 +150,25 @@ function showResults() {
   });
 
   const finalScore = Math.max(0, Math.min(score, 6));
-  const you = typeclasses[finalScore]
+  const you = typeclasses[finalScore];
   const picture = pictures[you];
-  const article = new RegExp('^[aeiou].*', 'i').test(you) ? "an" : "a"
+  const article = new RegExp('^[aeiou].*', 'i').test(you) ? "an" : "a";
+  const congrats = `Congratulations, you're ${article} ${you}!`;
+  const share = `https://twitter.com/intent/tweet?text=${congrats}&url=${picture}&via=impurepics`;
 
   resultsContainer.innerHTML =
     `<section>
        <div class="post-body">
-         <h3>Congratulations, you're ${article} ${you}!</h3>
+         <h3>${congrats}</h3>
          <p class="text-muted text-center">
-             Don't forget to share it with your friends:
+             Don't forget to share it with your friends
          </p>
-         <img src="${picture}" alt="result" />
+         <div>
+           <a href="${share}">
+             <i class="fa fa-twitter fa-2x fa-color"></i>
+           </a>
+         </div>
+         <img src="${picture}.png" alt="result"/>
        </div>
      </section>`;
 
