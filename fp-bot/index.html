@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="description" content="impurepics, all kinds of impure pics">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Which typeclass are you? [impurepics quiz]</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>FP Q&A Bot</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,15 +45,22 @@
       <article>
         <section class="header">
           <div>
-            <h1>[Quiz] Which typeclass are you?</h1>
+            <h1>Real FP Q&A Bot</h1>
+            <h3>
+              Get answers to millions of Functional Programming questions
+            </h3>
+            <p class="text-muted">
+              Disclaimer: the model was trained on the various fp chats (Gitter, Telegram, Slack, and Discord).
+              Answers most of the questions
+            </p>
           </div>
         </section>
-
         <section>
-          <div id="quiz-results"></div>
-          <div class="quiz-container" id="quiz"></div>
-          <button id="quiz-next" class="btn btn-impure">Next Question</button>
-          <button id="quiz-submit" class="btn btn-impure">Submit Quiz</button>
+          <div class="form-group row justify-content-center">
+            <textarea class="form-control col-lg-8" id="fp-bot-form" rows="5" placeholder="How do I X my Y?"></textarea>
+          </div>
+          <div id="fp-bot-answer"></div>
+          <button id="fp-bot-submit" class="btn btn-impure">Get an Answer</button>
         </section>
       </article>
     </div>
@@ -67,7 +73,7 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="quiz.js"></script>
+<script type="text/javascript" src="fp-bot.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126699936-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

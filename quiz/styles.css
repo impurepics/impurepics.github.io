@@ -40,14 +40,3 @@
 .quiz-question code {
   font-size: 50%;
 }
-
-.btn-quiz {
-  background-color: #ef4767;
-  color: #fff;
-}
-
-.btn-quiz:hover,
-.btn-quiz:active {
-  background-color: #e34d4c;
-  color: #fff;
-}
