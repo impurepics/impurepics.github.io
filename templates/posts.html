@@ -2,12 +2,12 @@
     <a href="#">$title$</a>
 </div>
 
-<div class="album py-5">
+<div class="py-5">
     <div class="container">
         <div class="card-columns">
             $for(posts)$
             <div class="card mb-4 shadow-sm">
-                <img class="card-img" src="$thumbnail$" alt="$title$"/>
+                <img class="card-img" src="$thumbnail$" alt="$title$" />
                 <a class="card-img-overlay card-hover text-white" href="$url$">
                     <div class="bg-pink">
                         <p class="mb-0">$title$</p>
@@ -17,6 +17,19 @@
             </div>
             $endfor$
         </div>
-
+        <nav aria-label="navigation">
+            <ul class="pagination justify-content-center">
+                $if(previousPageNum)$
+                <li class="page-item">
+                    <a class="page-link" href="$previousPageUrl$">Newer pics</a>
+                </li>
+                $endif$
+                $if(nextPageNum)$
+                <li class="page-item">
+                    <a class="page-link" href="$nextPageUrl$">Older pics</a>
+                </li>
+                $endif$
+            </ul>
+        </nav>
     </div>
 </div>

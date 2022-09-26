@@ -55,9 +55,9 @@
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   background-image: none;
   border: 1px solid transparent;
 
@@ -82,4 +82,3 @@
   border-color: #e34d4c;
   text-decoration: none;
 }
-
