@@ -7,8 +7,89 @@
         <description><![CDATA[Distilling functional programming for the good of all]]></description>
         <atom:link href="https://impurepics.com/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Fri, 02 Sep 2022 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Sep 2022 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Yes, but</title>
+    <link>https://impurepics.com/posts/2022-09-29-yes-but.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Yes, but</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/fp/page/1.html">fp</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on September 29, 2022</small>
+    </section>
+</article>]]></description>
+    <pubDate>Thu, 29 Sep 2022 00:00:00 UT</pubDate>
+    <guid>https://impurepics.com/posts/2022-09-29-yes-but.html</guid>
+    <dc:creator>Impure Pics</dc:creator>
+</item>
+<item>
+    <title>Currying</title>
+    <link>https://impurepics.com/posts/2022-09-23-currying.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Currying</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/tips/page/1.html">tips</a> <a href="/tags/haskell/page/1.html">haskell</a> <a href="/tags/fp/page/1.html">fp</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/H2F3Tfa.png" alt="Currying" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on September 23, 2022</small>
+    </section>
+</article>]]></description>
+    <pubDate>Fri, 23 Sep 2022 00:00:00 UT</pubDate>
+    <guid>https://impurepics.com/posts/2022-09-23-currying.html</guid>
+    <dc:creator>Impure Pics</dc:creator>
+</item>
+<item>
+    <title>Dinosaurs</title>
+    <link>https://impurepics.com/posts/2022-09-20-dinosaurs.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Dinosaurs</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/fp/page/1.html">fp</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/RAhbjc6.png" alt="yes, but" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on September 20, 2022</small>
+    </section>
+</article>]]></description>
+    <pubDate>Tue, 20 Sep 2022 00:00:00 UT</pubDate>
+    <guid>https://impurepics.com/posts/2022-09-20-dinosaurs.html</guid>
+    <dc:creator>Impure Pics</dc:creator>
+</item>
+<item>
     <title>Make Illegal State Unrepresentable</title>
     <link>https://impurepics.com/posts/2022-09-02-make-illegal-state-unrepresentable.html</link>
     <description><![CDATA[<article>
@@ -195,87 +276,6 @@
 </article>]]></description>
     <pubDate>Tue, 15 Mar 2022 00:00:00 UT</pubDate>
     <guid>https://impurepics.com/posts/2022-03-15-shooting-in-the-foot.html</guid>
-    <dc:creator>Impure Pics</dc:creator>
-</item>
-<item>
-    <title>Breakdown of GHC2021 language extension set</title>
-    <link>https://impurepics.com/posts/2022-02-05-ghc2021.html</link>
-    <description><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Breakdown of GHC2021 language extension set</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/tips/page/1.html">tips</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/hIiSKn7.png" alt="GHC2021 language extension set" /> <img src="https://imgur.com/Lheww8T.png" alt="GHC2021 language extension set" /> <img src="https://imgur.com/A0VkNG0.png" alt="GHC2021 language extension set" /> <img src="https://imgur.com/uUf03Xj.png" alt="GHC2021 language extension set" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on February  5, 2022</small>
-    </section>
-</article>]]></description>
-    <pubDate>Sat, 05 Feb 2022 00:00:00 UT</pubDate>
-    <guid>https://impurepics.com/posts/2022-02-05-ghc2021.html</guid>
-    <dc:creator>Impure Pics</dc:creator>
-</item>
-<item>
-    <title>The joy of composition</title>
-    <link>https://impurepics.com/posts/2022-01-23-the-joy-of-composition.html</link>
-    <description><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>The joy of composition</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/yfaDtlb.png" alt="the joy of composition" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on January 23, 2022</small>
-    </section>
-</article>]]></description>
-    <pubDate>Sun, 23 Jan 2022 00:00:00 UT</pubDate>
-    <guid>https://impurepics.com/posts/2022-01-23-the-joy-of-composition.html</guid>
-    <dc:creator>Impure Pics</dc:creator>
-</item>
-<item>
-    <title>Some of the hottest things in the world</title>
-    <link>https://impurepics.com/posts/2022-01-09-the-hottest-things.html</link>
-    <description><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Some of the hottest things in the world</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/vhGpCrT.png" alt="the hottest things in the world" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on January  9, 2022</small>
-    </section>
-</article>]]></description>
-    <pubDate>Sun, 09 Jan 2022 00:00:00 UT</pubDate>
-    <guid>https://impurepics.com/posts/2022-01-09-the-hottest-things.html</guid>
     <dc:creator>Impure Pics</dc:creator>
 </item>
 
