@@ -8,8 +8,35 @@
         <name>Impure Pics</name>
         <email>Impure Pics</email>
     </author>
-    <updated>2022-09-29T00:00:00Z</updated>
+    <updated>2022-10-27T00:00:00Z</updated>
     <entry>
+    <title>Haskell lessons</title>
+    <link href="https://impurepics.com/posts/2022-10-27-haskell-lessons.html" />
+    <id>https://impurepics.com/posts/2022-10-27-haskell-lessons.html</id>
+    <published>2022-10-27T00:00:00Z</published>
+    <updated>2022-10-27T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Haskell lessons</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/haskell/page/1.html">haskell</a> <a href="/tags/tips/page/1.html">tips</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/niBDz3J.png" alt="haskell lessons" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on October 27, 2022</small>
+    </section>
+</article>]]></summary>
+</entry>
+<entry>
     <title>Yes, but</title>
     <link href="https://impurepics.com/posts/2022-09-29-yes-but.html" />
     <id>https://impurepics.com/posts/2022-09-29-yes-but.html</id>
@@ -28,7 +55,7 @@
     </section>
     <section>
         <div class="post-body">
-            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" />
+            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" /> <img src="https://imgur.com/es6IAfn.png" alt="yes, but" />
         </div>
     </section>
     <section class="text-muted">
@@ -249,33 +276,6 @@
     </section>
     <section class="text-muted">
         <small>Posted on April 23, 2022</small>
-    </section>
-</article>]]></summary>
-</entry>
-<entry>
-    <title>Trying to shoot myself in the foot</title>
-    <link href="https://impurepics.com/posts/2022-03-15-shooting-in-the-foot.html" />
-    <id>https://impurepics.com/posts/2022-03-15-shooting-in-the-foot.html</id>
-    <published>2022-03-15T00:00:00Z</published>
-    <updated>2022-03-15T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Trying to shoot myself in the foot</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/2wuEsP5.png" alt="shoot myself in the foot" /> <img src="https://imgur.com/FtZNTpr.png" alt="shoot myself in the foot" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on March 15, 2022</small>
     </section>
 </article>]]></summary>
 </entry>

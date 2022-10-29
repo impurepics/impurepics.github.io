@@ -7,8 +7,35 @@
         <description><![CDATA[Distilling functional programming for the good of all]]></description>
         <atom:link href="https://impurepics.com/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Thu, 29 Sep 2022 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Oct 2022 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Haskell lessons</title>
+    <link>https://impurepics.com/posts/2022-10-27-haskell-lessons.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Haskell lessons</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/haskell/page/1.html">haskell</a> <a href="/tags/tips/page/1.html">tips</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/niBDz3J.png" alt="haskell lessons" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on October 27, 2022</small>
+    </section>
+</article>]]></description>
+    <pubDate>Thu, 27 Oct 2022 00:00:00 UT</pubDate>
+    <guid>https://impurepics.com/posts/2022-10-27-haskell-lessons.html</guid>
+    <dc:creator>Impure Pics</dc:creator>
+</item>
+<item>
     <title>Yes, but</title>
     <link>https://impurepics.com/posts/2022-09-29-yes-but.html</link>
     <description><![CDATA[<article>
@@ -24,7 +51,7 @@
     </section>
     <section>
         <div class="post-body">
-            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" />
+            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" /> <img src="https://imgur.com/es6IAfn.png" alt="yes, but" />
         </div>
     </section>
     <section class="text-muted">
@@ -249,33 +276,6 @@
 </article>]]></description>
     <pubDate>Sat, 23 Apr 2022 00:00:00 UT</pubDate>
     <guid>https://impurepics.com/posts/2022-04-23-haskller-sins.html</guid>
-    <dc:creator>Impure Pics</dc:creator>
-</item>
-<item>
-    <title>Trying to shoot myself in the foot</title>
-    <link>https://impurepics.com/posts/2022-03-15-shooting-in-the-foot.html</link>
-    <description><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Trying to shoot myself in the foot</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/2wuEsP5.png" alt="shoot myself in the foot" /> <img src="https://imgur.com/FtZNTpr.png" alt="shoot myself in the foot" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on March 15, 2022</small>
-    </section>
-</article>]]></description>
-    <pubDate>Tue, 15 Mar 2022 00:00:00 UT</pubDate>
-    <guid>https://impurepics.com/posts/2022-03-15-shooting-in-the-foot.html</guid>
     <dc:creator>Impure Pics</dc:creator>
 </item>
 
