@@ -8,8 +8,62 @@
         <name>Impure Pics</name>
         <email>Impure Pics</email>
     </author>
-    <updated>2022-10-27T00:00:00Z</updated>
+    <updated>2023-02-02T00:00:00Z</updated>
     <entry>
+    <title>Wheel of Fortune</title>
+    <link href="https://impurepics.com/posts/2023-02-02-docs.html" />
+    <id>https://impurepics.com/posts/2023-02-02-docs.html</id>
+    <published>2023-02-02T00:00:00Z</published>
+    <updated>2023-02-02T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Wheel of Fortune</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/rust/page/1.html">rust</a> <a href="/tags/haskell/page/1.html">haskell</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/K9iO043.png" alt="wheel of fortune" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on February  2, 2023</small>
+    </section>
+</article>]]></summary>
+</entry>
+<entry>
+    <title>Wheel of Fortune</title>
+    <link href="https://impurepics.com/posts/2023-01-23-wheel-of-fortune.html" />
+    <id>https://impurepics.com/posts/2023-01-23-wheel-of-fortune.html</id>
+    <published>2023-01-23T00:00:00Z</published>
+    <updated>2023-01-23T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Wheel of Fortune</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/memez/page/1.html">memez</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/p8G55ZL.png" alt="wheel of fortune" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on January 23, 2023</small>
+    </section>
+</article>]]></summary>
+</entry>
+<entry>
     <title>Haskell lessons</title>
     <link href="https://impurepics.com/posts/2022-10-27-haskell-lessons.html" />
     <id>https://impurepics.com/posts/2022-10-27-haskell-lessons.html</id>
@@ -49,13 +103,13 @@
         </div>
         <div class="tags">
             
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/fp/page/1.html">fp</a>
+            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/fp/page/1.html">fp</a> <a href="/tags/haskell/page/1.html">haskell</a> <a href="/tags/rust/page/1.html">rust</a>
             
         </div>
     </section>
     <section>
         <div class="post-body">
-            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" /> <img src="https://imgur.com/es6IAfn.png" alt="yes, but" />
+            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" /> <img src="https://imgur.com/es6IAfn.png" alt="yes, but" /> <img src="https://imgur.com/NWJrtkL.png" alt="yes, but" /> <img src="https://imgur.com/TartVs5.png" alt="yes, but" /> <img src="https://imgur.com/gTNc0Tq.png" alt="yes, but" /> <img src="https://imgur.com/5leo9xs.png" alt="yes, but" /> <img src="https://imgur.com/lJJ4Pyg.png" alt="yes, but" /> <img src="https://imgur.com/DcaMYbQ.png" alt="yes, but" /> <img src="https://imgur.com/2jT2YYm.png" alt="yes, but" /> <img src="https://imgur.com/kh4IJKM.png" alt="yes, but" /> <img src="https://imgur.com/jGUAkoy.png" alt="yes, but" /> <img src="https://imgur.com/BZ3fycl.png" alt="yes, but" /> <img src="https://imgur.com/YHwNw9n.png" alt="yes, but" /> <img src="https://imgur.com/pKnYJrd.png" alt="yes, but" />
         </div>
     </section>
     <section class="text-muted">
@@ -222,60 +276,6 @@
     </section>
     <section class="text-muted">
         <small>Posted on June 13, 2022</small>
-    </section>
-</article>]]></summary>
-</entry>
-<entry>
-    <title>and/or</title>
-    <link href="https://impurepics.com/posts/2022-05-03-and-or.html" />
-    <id>https://impurepics.com/posts/2022-05-03-and-or.html</id>
-    <published>2022-05-03T00:00:00Z</published>
-    <updated>2022-05-03T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>and/or</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/tips/page/1.html">tips</a> <a href="/tags/haskell/page/1.html">haskell</a> <a href="/tags/purescript/page/1.html">purescript</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/ekJb2cb.png" alt="and/or" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on May  3, 2022</small>
-    </section>
-</article>]]></summary>
-</entry>
-<entry>
-    <title>Haskller sins</title>
-    <link href="https://impurepics.com/posts/2022-04-23-haskller-sins.html" />
-    <id>https://impurepics.com/posts/2022-04-23-haskller-sins.html</id>
-    <published>2022-04-23T00:00:00Z</published>
-    <updated>2022-04-23T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Haskller sins</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/Z0Sxn2M.png" alt="haskller sins" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on April 23, 2022</small>
     </section>
 </article>]]></summary>
 </entry>
