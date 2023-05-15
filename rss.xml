@@ -7,14 +7,68 @@
         <description><![CDATA[Distilling functional programming for the good of all]]></description>
         <atom:link href="https://impurepics.com/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Thu, 02 Feb 2023 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Mar 2023 00:00:00 UT</lastBuildDate>
         <item>
-    <title>Wheel of Fortune</title>
+    <title>Raefactoring</title>
+    <link>https://impurepics.com/posts/2023-03-24-refactoring.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>Raefactoring</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a> <a href="/tags/rust/page/1.html">rust</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/VShLfAL.png" alt="you live like this" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on March 24, 2023</small>
+    </section>
+</article>]]></description>
+    <pubDate>Fri, 24 Mar 2023 00:00:00 UT</pubDate>
+    <guid>https://impurepics.com/posts/2023-03-24-refactoring.html</guid>
+    <dc:creator>Impure Pics</dc:creator>
+</item>
+<item>
+    <title>You live like this?</title>
+    <link>https://impurepics.com/posts/2023-03-01-you-live-like-this%20copy.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <div>
+            <h1>You live like this?</h1>
+        </div>
+        <div class="tags">
+            
+            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/fp/page/1.html">fp</a>
+            
+        </div>
+    </section>
+    <section>
+        <div class="post-body">
+            <img src="https://imgur.com/OVdzrJs.png" alt="you live like this" />
+        </div>
+    </section>
+    <section class="text-muted">
+        <small>Posted on March  1, 2023</small>
+    </section>
+</article>]]></description>
+    <pubDate>Wed, 01 Mar 2023 00:00:00 UT</pubDate>
+    <guid>https://impurepics.com/posts/2023-03-01-you-live-like-this%20copy.html</guid>
+    <dc:creator>Impure Pics</dc:creator>
+</item>
+<item>
+    <title>Docs</title>
     <link>https://impurepics.com/posts/2023-02-02-docs.html</link>
     <description><![CDATA[<article>
     <section class="header">
         <div>
-            <h1>Wheel of Fortune</h1>
+            <h1>Docs</h1>
         </div>
         <div class="tags">
             
@@ -105,7 +159,7 @@
     </section>
     <section>
         <div class="post-body">
-            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" /> <img src="https://imgur.com/es6IAfn.png" alt="yes, but" /> <img src="https://imgur.com/NWJrtkL.png" alt="yes, but" /> <img src="https://imgur.com/TartVs5.png" alt="yes, but" /> <img src="https://imgur.com/gTNc0Tq.png" alt="yes, but" /> <img src="https://imgur.com/5leo9xs.png" alt="yes, but" /> <img src="https://imgur.com/lJJ4Pyg.png" alt="yes, but" /> <img src="https://imgur.com/DcaMYbQ.png" alt="yes, but" /> <img src="https://imgur.com/2jT2YYm.png" alt="yes, but" /> <img src="https://imgur.com/kh4IJKM.png" alt="yes, but" /> <img src="https://imgur.com/jGUAkoy.png" alt="yes, but" /> <img src="https://imgur.com/BZ3fycl.png" alt="yes, but" /> <img src="https://imgur.com/YHwNw9n.png" alt="yes, but" /> <img src="https://imgur.com/pKnYJrd.png" alt="yes, but" />
+            <img src="https://imgur.com/H2F3Tfa.png" alt="yes, but" /> <img src="https://imgur.com/QrOQtgC.png" alt="yes, but" /> <img src="https://imgur.com/uhqE5SD.png" alt="yes, but" /> <img src="https://imgur.com/es6IAfn.png" alt="yes, but" /> <img src="https://imgur.com/NWJrtkL.png" alt="yes, but" /> <img src="https://imgur.com/TartVs5.png" alt="yes, but" /> <img src="https://imgur.com/gTNc0Tq.png" alt="yes, but" /> <img src="https://imgur.com/5leo9xs.png" alt="yes, but" /> <img src="https://imgur.com/lJJ4Pyg.png" alt="yes, but" /> <img src="https://imgur.com/DcaMYbQ.png" alt="yes, but" /> <img src="https://imgur.com/2jT2YYm.png" alt="yes, but" /> <img src="https://imgur.com/kh4IJKM.png" alt="yes, but" /> <img src="https://imgur.com/jGUAkoy.png" alt="yes, but" /> <img src="https://imgur.com/BZ3fycl.png" alt="yes, but" /> <img src="https://imgur.com/YHwNw9n.png" alt="yes, but" /> <img src="https://imgur.com/pKnYJrd.png" alt="yes, but" /> <img src="https://imgur.com/UNLWcPq.png" alt="yes, but" /> <img src="https://imgur.com/dMtxLzf.png" alt="yes, but" /> <img src="https://imgur.com/DlLEAdE.png" alt="yes, but" /> <img src="https://imgur.com/OezFZsE.png" alt="yes, but" /> <img src="https://imgur.com/1PRUrcx.png" alt="yes, but" /> <img src="https://imgur.com/yeVfAnq.png" alt="yes, but" />
         </div>
     </section>
     <section class="text-muted">
@@ -222,60 +276,6 @@
 </article>]]></description>
     <pubDate>Tue, 16 Aug 2022 00:00:00 UT</pubDate>
     <guid>https://impurepics.com/posts/2022-08-16-the-sign.html</guid>
-    <dc:creator>Impure Pics</dc:creator>
-</item>
-<item>
-    <title>Top Reasons Why Products Fail</title>
-    <link>https://impurepics.com/posts/2022-06-25-top-failure-reasons.html</link>
-    <description><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Top Reasons Why Products Fail</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/ZFFCRSn.png" alt="top reasons why products fail" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on June 25, 2022</small>
-    </section>
-</article>]]></description>
-    <pubDate>Sat, 25 Jun 2022 00:00:00 UT</pubDate>
-    <guid>https://impurepics.com/posts/2022-06-25-top-failure-reasons.html</guid>
-    <dc:creator>Impure Pics</dc:creator>
-</item>
-<item>
-    <title>Jobless forever</title>
-    <link>https://impurepics.com/posts/2022-06-13-jobless-forever.html</link>
-    <description><![CDATA[<article>
-    <section class="header">
-        <div>
-            <h1>Jobless forever</h1>
-        </div>
-        <div class="tags">
-            
-            <a href="/tags/memez/page/1.html">memez</a> <a href="/tags/haskell/page/1.html">haskell</a>
-            
-        </div>
-    </section>
-    <section>
-        <div class="post-body">
-            <img src="https://imgur.com/Z2c3FHt.png" alt="jobless forever" />
-        </div>
-    </section>
-    <section class="text-muted">
-        <small>Posted on June 13, 2022</small>
-    </section>
-</article>]]></description>
-    <pubDate>Mon, 13 Jun 2022 00:00:00 UT</pubDate>
-    <guid>https://impurepics.com/posts/2022-06-13-jobless-forever.html</guid>
     <dc:creator>Impure Pics</dc:creator>
 </item>
 
