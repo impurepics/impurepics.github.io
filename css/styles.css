@@ -45,6 +45,15 @@
   margin: 1rem 0;
 }
 
+.home-features iframe {
+  border: 0;
+}
+
+.book-preview {
+  height: 400px;
+  width: 100%;
+}
+
 .tags a {
   text-decoration: none;
   display: inline-block;
