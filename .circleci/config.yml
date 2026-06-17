@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: fpco/stack-build:lts-13
+      - image: fpco/stack-build:lts-21.6
     branches:
       only:
         - hakyll
@@ -10,16 +10,16 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v2-stack-work-{{ checksum "impure-site.cabal" }}
+            - v3-stack-work-{{ checksum "impure-site.cabal" }}-{{ checksum "stack.yaml.lock" }}
             - stack-work-
       - run:
           name: Build executable
           command: stack build
       - save_cache:
           paths:
-            - ~/futtetennismo/.stack-work
+            - .stack-work
             - /root/.stack/
-          key: v2-stack-work-{{ checksum "impure-site.cabal" }}
+          key: v3-stack-work-{{ checksum "impure-site.cabal" }}-{{ checksum "stack.yaml.lock" }}
       - deploy:
           name: Deploy master to Github Pages
           command: |

@@ -1,6 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import GHC.Base (liftM)
 import Hakyll
 
 main :: IO ()
