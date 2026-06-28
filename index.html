@@ -1,56 +1,86 @@
-<div class="row justify-content-center">
-  <ul class="list-unstyled project-list">
-    <li>
-      <a
-        class="project-link text-decoration-none"
-        href="https://impurepics.thinkific.com/courses/functional-thinking"
-      >
-        <i class="fa fa-university fa-color"></i> [Course] Thinking like a
-        functional developer
-      </a>
-    </li>
-    <li>
-      <a class="project-link text-decoration-none" href="./quiz/index.html">
-        <i class="fa fa-puzzle-piece fa-color"></i> [Quiz] Which typeclass are
-        you?
-      </a>
-    </li>
-    <li>
-      <a class="project-link text-decoration-none" href="/posts/page/1.html">
-        <i class="fa fa-archive fa-color"></i> All pics archive
-      </a>
-    </li>
-  </ul>
-</div>
+<section class="home-feed">
+  <nav class="tag-strip" aria-label="Browse by tag">
+    <div class="tags">$tags$</div>
+  </nav>
 
-<h3>Choose your path</h3>
-
-<div class="tags mb-2">$tags$</div>
-
-<div class="home-features row mt-4">
-  <section class="col-md-6 mb-4">
-    <h3>Latest video</h3>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe
-        class="embed-responsive-item"
-        src="https://www.youtube.com/embed?listType=playlist&list=UU9-egQYdpElHtvVM-t9qDWQ"
-        title="Latest Impure Pics YouTube video"
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
+  <div class="home-layout">
+    <div class="home-main">
+      <a class="featured-pic" href="$featuredUrl$">
+        <span class="featured-media">
+          <img src="$featuredThumbnail$" alt="$featuredTitle$" />
+        </span>
+        <span class="featured-copy">
+          <span class="featured-section-header">
+            <i class="fa fa-random fa-color"></i>
+            Random pic
+          </span>
+          <strong>$featuredTitle$</strong>
+        </span>
+      </a>
     </div>
-  </section>
-  <section class="col-md-6 mb-4">
-    <h3>FP Book</h3>
-    <iframe
-      class="book-preview"
-      id="data-blurb-bookshare-11263261"
-      src="https://www.blurb.com/bookshare/app/index.html?bookId=11263261"
-      title="Impure Pics book preview"
-      allowfullscreen=""
-      scrolling="no"
-    >
-    </iframe>
-  </section>
-</div>
+
+    <aside class="home-side">
+      <nav class="home-links" aria-label="Other links">
+        <a href="/posts/page/1.html">
+          <i class="fa fa-archive fa-color"></i>
+          All pics
+        </a>
+        <a href="./quiz/index.html">
+          <i class="fa fa-puzzle-piece fa-color"></i>
+          Which typeclass are you?
+        </a>
+        <a href="https://impurepics.thinkific.com/courses/functional-thinking">
+          <i class="fa fa-university fa-color"></i>
+          FP course
+        </a>
+      </nav>
+
+      <section>
+        <h2>Latest video</h2>
+        <div class="embed-responsive embed-responsive-16by9 video-preview">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed?listType=playlist&list=UU9-egQYdpElHtvVM-t9qDWQ"
+            title="Latest Impure Pics YouTube video"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <section>
+        <h2>FP book</h2>
+        <iframe
+          class="book-preview"
+          id="data-blurb-bookshare-11263261"
+          src="https://www.blurb.com/bookshare/app/index.html?bookId=11263261"
+          title="Impure Pics book preview"
+          allowfullscreen=""
+          scrolling="no"
+        >
+        </iframe>
+      </section>
+    </aside>
+  </div>
+
+  <!--This feels weird but only adds a few KB, it's fine.-->
+  <template id="featured-pics">
+    $for(featuredPosts)$
+    <a class="featured-pic" href="$url$">
+      <span class="featured-media">
+        <img src="$thumbnail$" alt="$title$" />
+      </span>
+      <span class="featured-copy">
+        <span class="featured-section-header">
+          <i class="fa fa-random fa-color"></i>
+          Random pic
+        </span>
+        <strong>$title$</strong>
+      </span>
+    </a>
+    $endfor$
+  </template>
+</section>
+
+<script type="module" src="/js/home.js"></script>

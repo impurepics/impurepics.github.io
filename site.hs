@@ -1,5 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
+import Data.Maybe (fromMaybe)
 import Hakyll
 
 main :: IO ()
@@ -14,11 +15,23 @@ main = hakyll $ do
         route idRoute
         compile compressCssCompiler
 
+    match "js/*" $ do
+        route idRoute
+        compile copyFileCompiler
+
     match "404.html" $ do
         route idRoute
         compile $ do
             getResourceBody
                 >>= loadAndApplyTemplate "templates/burrito.html" defaultContext
+                >>= relativizeUrls
+
+    match "license.html" $ do
+        route idRoute
+        compile $ do
+            let licenseCtx = constField "title" "License" <> defaultContext
+            getResourceBody
+                >>= loadAndApplyTemplate "templates/burrito.html" licenseCtx
                 >>= relativizeUrls
 
     tags <- buildTags "posts/*" (fromCapture "tags/*/page/1.html")
@@ -86,7 +99,13 @@ main = hakyll $ do
     match "index.html" $ do
         route idRoute
         compile $ do
-            let indexCtx = tagCloudCtx tags <> defaultContext
+            posts <- recentFirst =<< loadAll "posts/*"
+            featuredCtx <- featuredPicCtx posts
+            let indexCtx =
+                    featuredCtx
+                        <> listField "featuredPosts" postCtx (return posts)
+                        <> tagCloudCtx tags
+                        <> defaultContext
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
@@ -111,8 +130,30 @@ main = hakyll $ do
 
     asPage = fmap (paginateEvery 15) . sortRecentFirst
 
+-- Shove every post into context, so we can pick a random one from JS on main
+featuredPicCtx :: [Item String] -> Compiler (Context String)
+featuredPicCtx [] =
+    pure $
+        constField "featuredTitle" ""
+            <> constField "featuredThumbnail" ""
+            <> constField "featuredUrl" "/posts/page/1.html"
+featuredPicCtx (post : _) = do
+    let featured = itemIdentifier post
+    title <- fromMaybe "" <$> getMetadataField featured "title"
+    thumbnail <- fromMaybe "" <$> getMetadataField featured "thumbnail"
+    route <- getRoute featured
+    pure $
+        constField "featuredTitle" title
+            <> constField "featuredThumbnail" thumbnail
+            <> constField "featuredUrl" (maybe "/posts/page/1.html" toUrl route)
+
 tagCloudCtx :: Tags -> Context String
-tagCloudCtx = tagCloudField "tags" 100 100
+tagCloudCtx = tagCloudField "tags" 100 100 . sortTagsBy compareTagsByImportance
+
+-- the more the merrier
+compareTagsByImportance :: (String, [Identifier]) -> (String, [Identifier]) -> Ordering
+compareTagsByImportance (tagA, postsA) (tagB, postsB) =
+    compare (length postsB) (length postsA) <> compare tagA tagB
 
 postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" <> defaultContext
